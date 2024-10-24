@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIT Internet</title>
+    <link rel="stylesheet" href="Assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico.jpg" />
+  </head>
+  <body>
+    <!-- This is a practice site just to keep me refreshed
+     throughout the day. This page will consist of:
+     HTML, CSS, JavaScript -->
+    <header>
+      <h1 id="header">
+        <div class="title">
+          <img src="Assets/Images/GIT-Logo.jpg" alt="title" id="title" />
+          <!-- <div id="number">229-938-0103</div> -->
+        </div>
+      </h1>
+    </header>
+
+    <section>
+      <nav>
+        <a href="default.asp" target="_blank">Locations</a>
+        <a href="default.asp" target="_blank">Payment Options</a>
+        <a href="default.asp" target="_blank">About Us</a>
+        <a href="default.asp" target="_blank">Contact Us</a>
+      </nav>
+    </section>
+    <div class="container">
+      <div id="locations">
+        <h2>Locations</h2>
+        <img
+          src="https://th.bing.com/th/id/OIP.mWL58cPHMDc2EmxTM_Xa8AHaHa?rs=1&pid=ImgDetMain"
+          alt="county"
+        />
+        <div id="para">
+          We mainly serve Sumter County and surrounding areas. Reach out to us
+          and we will try our best to become your provider!
+        </div>
+      </div>
+      <br>
+      <div id="payment">
+        <h2>Payment Options</h2>
+        <div>
+          <form
+            action="https://www.paypal.com/cgi-bin/webscr"
+            method="post"
+            target="_top"
+          >
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input
+              type="hidden"
+              name="hosted_button_id"
+              value="N855S2G7HJ2QL"
+            />
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on0"
+                      value="Which option is best for you?"
+                    />Which option is best for you?
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="Install plus first month">
+                        Install/First Month $100.00 USD
+                      </option>
+                      <option value="Monthly high speed">
+                        High Speed $89.00 USD
+                      </option>
+                      <option value="Monthly low speed">
+                        Low Speed $69.00 USD
+                      </option>
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <input type="hidden" name="currency_code" value="USD" />
+            <input
+              type="image"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+              name="submit"
+              alt="PayPal - The safer, easier way to pay online!"
+            />
+            <img
+              alt="PayPal"
+              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            />
+          </form>
+        </div>
+        <div id="para">You are able to pay through mail and this website!</div>
+      </div>
+      <br> 
+      <div id="about">
+        <h2>About Us</h2>
+        <div id="para">
+          At Georgia Integrated Technologies, we are dedicated to providing
+          reliable, high-speed internet services to our local community. Founded
+          by a local family, we understand the unique needs of our neighbors and
+          strive to deliver personalized solutions with a local touch. Our
+          mission is to empower businesses and households with seamless
+          connectivity, ensuring that everyone can stay connected, work
+          efficiently, and enjoy online experiences without interruption. With a
+          commitment to exceptional customer service and community engagement,
+          we're not just an internet provider; we're your partner in progress.
+          Join us as we help bridge the digital divide and bring the best of the
+          internet to our area!
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <a href="tel:229-938-0103"> Call Us</a>
+        <a href="SMS:229-938-0103"> Text Us</a>
+        <a href="mailto:info@georgiait.net">Email Us</a>
+      </div>
+    </footer>
+  </body>
+</html>
