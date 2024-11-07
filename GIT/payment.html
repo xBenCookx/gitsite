@@ -74,7 +74,10 @@
             <i class="fa fa-envelope me-3"></i>info@example.com
           </div>
           <div class="h-100 d-inline-flex align-items-center">
-            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.linkedin.com/in/ben-cook-03020b313" target="_blank"
+            <a
+              class="btn btn-sm-square bg-white text-primary me-1"
+              href="https://www.linkedin.com/in/ben-cook-03020b313"
+              target="_blank"
               ><i class="fab fa-linkedin-in"></i
             ></a>
           </div>
@@ -105,9 +108,11 @@
           <a href="about.html" class="nav-item nav-link">About</a>
           <a href="service.html" class="nav-item nav-link">Services</a>
         </div>
-        <a href="payment.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
-        >Payment<i class="fa fa-arrow-right ms-3"></i
-      ></a>
+        <a
+          href="payment.html"
+          class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+          >Payment<i class="fa fa-arrow-right ms-3"></i
+        ></a>
       </div>
     </nav>
     <!-- Navbar End -->
@@ -131,7 +136,44 @@
     <!-- Page Header End -->
 
     <!-- Payment Start -->
+    <div class="details">
 
+      <div class="title">
+
+            <h2><span>Customers Pay Here:</span></h2>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="N855S2G7HJ2QL">
+<table>
+<tbody><tr><td><input type="hidden" name="on0" value="How many weeks in first month?">How many weeks in first month?</td></tr><tr><td><select name="os0" control-id="ControlID-1">
+<option value="4 Weeks">4 Weeks $398.00 USD</option>
+<option value="3 Weeks">3 Weeks $373.00 USD</option>
+<option value="2 Weeks">2 Weeks $348.00 USD</option>
+<option value="1 Week">1 Week $323.00 USD</option>
+</select> </td></tr>
+</tbody></table>
+<input type="hidden" name="currency_code" value="USD" control-id="ControlID-2">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+        </div>
+
+            <div class="description">
+
+                <p></p><p>
+You can pay for your install right here.Its quick, hassle free AND Secure!!</p>
+<p></p>
+
+            </div>
+
+                
+
+                <div class="cta-address">
+
+                </div>	
+
+      </div>
     <!-- Payment End -->
 
     <!-- Footer Start -->
@@ -150,7 +192,10 @@
               <i class="fa fa-envelope me-3"></i>info@example.com
             </p>
             <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/ben-cook-03020b313" target="_blank"
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.linkedin.com/in/ben-cook-03020b313"
+                target="_blank"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
             </div>
@@ -158,8 +203,12 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Services</h4>
             <a class="btn btn-link" href="service.html">Premium Internet</a>
-            <a class="btn btn-link" href="service.html">Security Camera Installation</a>
-            <a class="btn btn-link" href="service.html">Tower Installation/Removal</a>
+            <a class="btn btn-link" href="service.html"
+              >Security Camera Installation</a
+            >
+            <a class="btn btn-link" href="service.html"
+              >Tower Installation/Removal</a
+            >
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Quick Links</h4>
@@ -218,5 +267,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/paypal.js"></script>
   </body>
 </html>
