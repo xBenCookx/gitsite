@@ -1,0 +1,17 @@
+{
+  "name": "gitsite-client",
+  "version": "1.0.0",
+  "description": "Frontend client for GitSite",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@paypal/paypal-js": "^8.1.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "sass": "^1.69.0"
+  }
+}
